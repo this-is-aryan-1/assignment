@@ -1,0 +1,28 @@
+/* Block: content
+   Element: __paragraph
+   Modifier: --highlight, --emphasis
+*/
+
+/* Base styles for the paragraph element inside the "content" block */
+.content__paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Modifier: highlight - Applies distinct background and text color */
+.content__paragraph--highlight {
+    background-color: #fffae5;
+    color: #c97a00;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Modifier: emphasis - Increases font size and makes text bold */
+.content__paragraph--emphasis {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004085;
+}
