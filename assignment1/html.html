@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demonstration</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS applies to the div with class 'internal' */
+        .box {
+            background-color: lightblue;
+            color: black;
+        }
+
+        .internal {
+            border: 2px solid blue;
+        }
+    </style>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div class="box" style="background-color: yellow; color: red;">
+        This div uses inline CSS (background: yellow, text: red).
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="box internal">
+        This div uses internal CSS (background: lightblue, border: blue).
+    </div>
+
+    <!-- External CSS -->
+    <div class="box external">
+        This div uses external CSS.
+    </div>
+</body>
+</html>

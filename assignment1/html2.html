@@ -6,6 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    hello
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM CSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <!-- BEM Block: content -->
+        <p class="content__paragraph content__paragraph--highlight">
+            This paragraph uses the "highlight" modifier to change its background and font color.
+        </p>
+        <p class="content__paragraph content__paragraph--emphasis">
+            This paragraph uses the "emphasis" modifier to apply bold text and increased font size.
+        </p>
+        <p class="content__paragraph">
+            This paragraph is the default style for the "content__paragraph" block.
+        </p>
+    </div>
+</body>
+</html>
 </body>
 </html>
